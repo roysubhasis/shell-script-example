@@ -15,3 +15,5 @@ if [ -d "$folder_path" ]; then
     fi
   done
 else
+  echo "Folder $folder_path does not exist."
+fi
