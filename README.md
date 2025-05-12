@@ -8,3 +8,8 @@ Project to practice shell scripts
 ```
 ssh_loop.sh <username> <comma-separated-server-ips>
 ```
+
+### Shell script to check a folder and print all the file names inside folder one after another in a loop
+```
+check_print_files.sh 
+```
