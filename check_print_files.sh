@@ -7,8 +7,8 @@ folder_path="/path/to/your/folder"
 if [ -d "$folder_path" ]; then
   echo "Files in $folder_path:"
   
-  # Loop through each file in the folder
-  for file in "$folder_path"/*; do
+  # Loop through each file with sql extension in the folder
+  for file in "$folder_path"/*.sql; do
     # Check if it's a file (not a directory)
     if [ -f "$file" ]; then
       echo "$(basename "$file")"
